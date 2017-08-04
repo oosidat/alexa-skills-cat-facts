@@ -1,0 +1,12 @@
+{
+  "name": "alexa-skill-cat-facts",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "pkg": "zip -r cat_facts.zip node_modules index.js"
+  },
+  "dependencies": {
+    "alexa-sdk": "^1.0.10",
+    "cat-facts": "^1.0.2"
+  }
+}
